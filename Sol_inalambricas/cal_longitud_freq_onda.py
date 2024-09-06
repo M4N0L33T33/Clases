@@ -1,7 +1,7 @@
 while True:
     p = 0
 
-    p = int(input("Que quieres calcular?\n1.- Longitud de Onda?\n2.- Frecuencia de Onda?\nRespuesta: "))
+    p = int(input("Que quieres calcular?\n1.- Longitud de Onda?\n2.- Frecuencia de Onda?\n3.- Cerrar programa\nRespuesta: "))
 
     while p == 1:
         print("Haz seleccionado longitud de onda\n ")
@@ -46,4 +46,7 @@ while True:
             calculo = GHz*r
             print(round(calculo), "\n ")
             input("Presione para continuar")
-            break 
+            break
+
+    if p == 3:
+        break
