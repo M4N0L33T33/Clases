@@ -8,8 +8,8 @@ while True:
         print("solo usar en medidas de kilometros y GHz, saludos puto")
         d = int(input("distancia? (km): "))
         f = float(input("frecuencia? (GHz): "))
-        r = 17.32 * ((d / 4 * f) **0.5)  
-        print("Resultado = ", round(r,3), "km")
+        r = 17.32 * ((d / (4 * f)) **0.5)  
+        print("Resultado = ", round(r,4), "km")
         print("\n-----\n-----\n-----")
     
     elif p == 2:
