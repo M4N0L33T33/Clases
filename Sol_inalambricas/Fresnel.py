@@ -6,18 +6,18 @@ while True:
     if p == 1:
         print("")
         print("solo usar en medidas de metros y megahz, saludos puto")
-        d = int(input("distancia? (m): "))
-        f = int(input("frecuencia? (mHz): "))
-        r = 17.32 * ((d / (4 * f))**0.5)
+        d = int(input("distancia? (km): "))
+        f = float(input("frecuencia? (GHz): "))
+        r = 17.32 * ((d / 4 * f) **0.5)  
         print("Resultado = ", round(r,3), "km")
         print("\n-----\n-----\n-----")
     
     elif p == 2:
         print("")
         print("solo usar en medidas de metros y megahz, saludos puto")
-        d = int(input("distancia? (m): "))
-        f = int(input("frecuencia? (mHz): "))
-        d1 = int(input("medida del obstaculo?: "))
+        d = float(input("distancia? (km): "))
+        f = float(input("frecuencia? (GHz): "))
+        d1 = float(input("medida del obstaculo?: "))
         d2 = d - d1
         r = 17.32 * (((d1*d2)/(d*f))**0.5)
         print("Resultado = ", round(r,3), "km")
