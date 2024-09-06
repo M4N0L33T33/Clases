@@ -5,7 +5,7 @@ while True:
 
     if p == 1:
         print("")
-        print("solo usar en medidas de metros y megahz, saludos puto")
+        print("solo usar en medidas de kilometros y GHz, saludos puto")
         d = int(input("distancia? (km): "))
         f = float(input("frecuencia? (GHz): "))
         r = 17.32 * ((d / 4 * f) **0.5)  
@@ -14,8 +14,8 @@ while True:
     
     elif p == 2:
         print("")
-        print("solo usar en medidas de metros y megahz, saludos puto")
-        d = float(input("distancia? (km): "))
+        print("solo usar en medidas de kilometros y GHz, saludos puto")
+        d = float(input("distancia? (Km): "))
         f = float(input("frecuencia? (GHz): "))
         d1 = float(input("medida del obstaculo?: "))
         d2 = d - d1
