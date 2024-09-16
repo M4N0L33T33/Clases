@@ -9,7 +9,7 @@ while True:
         d = int(input("distancia? (km): "))
         f = float(input("frecuencia? (GHz): "))
         r = 17.32 * ((d / (4 * f)) **0.5)  
-        print("Resultado = ", round(r,4), "km")
+        print("Resultado = ", round(r,4), "m")
         print("\n-----\n-----\n-----")
     
     elif p == 2:
@@ -20,7 +20,7 @@ while True:
         d1 = float(input("medida del obstaculo?: "))
         d2 = d - d1
         r = 17.32 * (((d1*d2)/(d*f))**0.5)
-        print("Resultado = ", round(r,3), "km")
+        print("Resultado = ", round(r,3), "m")
         print("\n-----\n-----\n-----")
     
     elif p == 0:
