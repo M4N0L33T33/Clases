@@ -1,7 +1,7 @@
 
   
 while True:
-    p = int(input("Que necesitas?\nCalculadora: en caso de no seguir necesitando, seleccione salir (0) \n- Sin obstaculos '17.32 * ((d / (4 * f)) **0.5)' (1)\n- Con obstaculos (2) '17.32 * (((obs*d2)/(d*f))**0.5)'\nRespuesta: "))
+    p = int(input("Que necesitas?\nCalculadora: en caso de no seguir necesitando, seleccione salir (0) \n- Sin obstaculos (1)\n- Con obstaculos (2)\nRespuesta: "))
 
     if p == 1:
         print("")
